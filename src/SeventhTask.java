@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class SeventhTask {
     public static void main(String[] args) {
-        int X = 15;
-        int Y = 6;
-        int Z = 33;
+        final int X = 15;
+        final int Y = 6;
+        final int Z = 33;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число: ");
         int number = scanner.nextInt();
