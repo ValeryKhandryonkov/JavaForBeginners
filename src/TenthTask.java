@@ -15,10 +15,8 @@ public class TenthTask {
             }
         }
         System.out.print("Элементы первой строки, умноженные на 3: ");
-        for (int i = 0; i < 1; i++){
-            for (int j = 0; j < columns; j++){
-                System.out.print(matrix[i][j] * 3 + " ");
-            }
+        for (int j = 0; j < columns; j++){
+            System.out.print(matrix[0][j] * 3 + " ");
         }
     }
 }
